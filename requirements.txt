@@ -7,7 +7,7 @@ charset-normalizer==2.0.10
 coverage==6.3
 cryptography==36.0.1
 decorator==5.1.1
-distlib==0.3.4
+#distlib==0.3.4
 docutils==0.18.1
 filelock==3.4.2
 h11==0.13.0
