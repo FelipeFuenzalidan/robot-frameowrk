@@ -2,6 +2,10 @@
 Library    RequestsLibrary
 Library    JSONLibrary
 Library    Collections
+Suite Setup   log to console    Antes de ejecutar la suite
+Test Setup  log to console    Antes de ejecutar el test
+Test Teardown   log to console    Después de ejeutar el test
+Suite Teardown    log to console    Después de ejecutar la suite
 
 *** Variables ***
 ${URL_BASE}     http://thetestingworldapi.com/

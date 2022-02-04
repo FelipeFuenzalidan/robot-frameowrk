@@ -10,7 +10,7 @@ Exutute Api test
     [Documentation]    Execute the api test
     [Tags]    Smoke
     Given I run the service with the following endpoint with GET method   jhetestingworldapi     ${ENDPOINT_POST}
-    Then I verify the code status is equeals  200   ${RESPONSE}
+    Then I verify the code status is equeals    200   ${RESPONSE}
     And I verify that the response contains key  status  ${RESPONSE}
     And I verify that the response contains key    data  ${RESPONSE}
     And I verify that the response contains value   ${RESPONSE}   data.first_name   Teku

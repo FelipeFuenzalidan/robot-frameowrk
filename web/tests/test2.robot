@@ -1,8 +1,8 @@
 *** Settings ***
 Documentation    Search Google Page 2
+Library    SeleniumLibrary
 Resource    ../resource/page/common.robot
 Resource    ../resource/page/googlepage.robot
-Library    SeleniumLibrary
 Test Setup    I go to google page
 Test Teardown    I close browser
 

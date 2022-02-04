@@ -8,7 +8,7 @@ I wait for the google page is loaded
     wait until page contains    ${TEXT_LOAD}
 
 I perform to search with the Globant text
-    [Arguments]    ${TEXT_SEARCH}
+    [Arguments]   ${TEXT_SEARCH}
     input text    ${SEARCH_TEXBOX}    ${TEXT_SEARCH}
     press keys    ${SEARCH_TEXBOX}    ENTER
 
