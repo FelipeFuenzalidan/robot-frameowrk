@@ -10,6 +10,7 @@ Suite Teardown    log to console    después del feature
 
 *** Variables ***
 ${SEARCH_TEXT}  Globant
+${SEARCH_RESULTS}   Globant - Buscar con Google
 
 
 *** Test Cases ***
@@ -21,5 +22,5 @@ Search google page 1
     wait until page contains    Google
     input text    name=q    ${SEARCH_TEXT}
     press keys    name=q    ENTER
-    title should be    Globant - Buscar con Google
+    title should be    ${SEARCH_RESULTS}
     close browser
