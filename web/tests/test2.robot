@@ -12,7 +12,7 @@ ${TEXT_SEARCH}  Globant
 ${TEXT_RESULT}  Globant - Buscar con Google
 
 *** Test Cases ***
-Search google page
+Search google page 2
     [Documentation]    Search google page 2
     [Tags]    smoke
     Given I wait for the google page is loaded  ${TEXT_LOAD}

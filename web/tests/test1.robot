@@ -13,7 +13,7 @@ ${SEARCH_TEXT}  Globant
 
 
 *** Test Cases ***
-Search google page
+Search google page 1
     [Documentation]    Search google page 1
     [Tags]    regression
     open browser    https://www.google.com  chrome
