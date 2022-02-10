@@ -1,4 +1,5 @@
-#!/bin/sh
+#!/usr/bin/env bash
+set -e
 
 # In real world we'd clear the database between runs since not all our tests clean up after themselves properly
 
