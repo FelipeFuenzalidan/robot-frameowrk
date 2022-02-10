@@ -155,3 +155,13 @@ in the ecosystem are also open source, but they may use different licenses.
 
 __ http://apache.org/licenses/LICENSE-2.0
 __ http://creativecommons.org/licenses/by/3.0
+
+
+Framework Configuration
+===============
+
+ - Clone the repository.
+ - Run the command "pip install - r requirements.txt".
+ - For web executions: robot web/tests/
+ - For api's executions: robot api/tests/
+ - For mobile execution in browserstack: robot --variable PLATFORM:bs-android mobile/test/test1.robot
